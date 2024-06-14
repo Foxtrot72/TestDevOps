@@ -1,5 +1,5 @@
 public abstract class Notifica {
-    private String destinatario;
-    private String messaggio;
+    public Notifica(String destinatario, String messaggio) {
+    }
     abstract String invia();
 }
