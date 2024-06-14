@@ -1,7 +1,6 @@
 public class Sms extends Notifica {
     private long numero;
-    private String destinatario;
-    private String messaggio;
+
 
     public Sms(String destinatario, String messaggio, long numero) {
         super(destinatario, messaggio);

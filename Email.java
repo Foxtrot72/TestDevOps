@@ -1,6 +1,4 @@
 public class Email extends Notifica {
-    private String destinatario;
-    private String messaggio;
     private String oggetto;
     public Email(String destinatario, String messaggio,String oggetto) {
         super(destinatario, messaggio);
